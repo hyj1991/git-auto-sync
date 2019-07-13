@@ -1,0 +1,28 @@
+{
+  "name": "git-auto-sync",
+  "version": "1.0.0",
+  "description": "git auto sync repository",
+  "main": "lib/index.js",
+  "bin": {
+    "git-auto-sync": "bin/start.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyj1991/git-auto-sync.git"
+  },
+  "author": "hyj1991 (yeekwanvong@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyj1991/git-auto-sync/issues"
+  },
+  "homepage": "https://github.com/hyj1991/git-auto-sync#readme",
+  "dependencies": {
+    "dingbot": "^1.1.0"
+  }
+}
